@@ -1,0 +1,66 @@
+@font-face {
+    font-family: Hack;
+    src: url("./fonts/Hack-Regular.woff") format("woff");
+    font-weight:400;
+}
+
+html {
+  background-color: #C5DAFC;
+  background-image: url(https://picsum.photos/g/1920?random), url("./images/backgrounds/tenerife-teide.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Hack', 'Courier New', sans-serif;
+  text-align: center;
+  font-size: 20x;
+
+  /* Disable user selection (mark/copy text) */
+          user-select : none;
+      -ms-user-select : none;
+     -moz-user-select : none;
+  -webkit-user-select : none;
+}
+
+body {
+  margin: 0;
+  font-size: 1rem;
+  min-height: 100vh;
+}
+
+.header {
+  max-width: 100%;
+  padding: 1em;
+  font-size: 1.5em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.clock   {
+  width: auto;
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+}
+.digits::before {
+  content: ":";
+  margin-right: .1em;      
+}
+.digits:first-child::before {
+  content: "";
+}
+
+/* Toggleable classes */
+.hidden {
+  display: none;
+}
+.dark-mode {
+  background-color: rgba( 10,10,10,.5);
+  color: white;
+}
+
+@media (max-width: 580px) {
+  .header {
+    font-size: 1em;
+    flex-direction: column;
+  }
+}
