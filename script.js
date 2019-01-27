@@ -5,7 +5,7 @@ const digitalClock  = document.querySelector('.clock');
 const dateElement   = document.querySelector('.date');
 const dayElement    = document.querySelector('.day');
 const header        = document.querySelector('.header');
-const days          = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+const days          = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
 function setTime() {
     const now     = new Date();
