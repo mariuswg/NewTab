@@ -1,5 +1,5 @@
 # Homepage / New tab
-####Customizable homepage for new tabs in the web browser
+#### Customizable homepage for new tabs in the web browser
 
 ## About
 A simple homepage displaying time and date with a visually pleasing wallpaper 
