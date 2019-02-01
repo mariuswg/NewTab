@@ -1,0 +1,20 @@
+{
+    "manifest_version" : 2,
+
+    "name": "NewTab",
+    "description": "A flexible new tab",
+    "version": "1.0",
+
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+
+    "browser_action": {
+        "default_icon": "newtab.png"
+    },
+
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    }
+}
