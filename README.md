@@ -17,4 +17,4 @@ The page will be hosted as a local file and won't need network aceess to work. I
 ![screenshot 2 of web page](./screenshots/screenshot_02.PNG "Light background / dark text color")
 
 ## Copyright
-The random wallpapers from picsum.photos are license free, and the fallback wallpaper was taken by me personally.
+The random wallpapers from picsum.photos are license free, and the fallback wallpaper was taken by MariusWG personally.
