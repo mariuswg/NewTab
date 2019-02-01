@@ -7,7 +7,7 @@ A simple homepage displaying time and date with a visually pleasing wallpaper
 Intended use: new tab in your favorite browser
 
 ### How to run
-Open `./extension/index.html` in a web browser OR in Google Chrome, open <a href="chrome://extensions">chrome://extensions</a>, have developer mode toggled on, click the "Load unpacked" button and choose the `./extension/` directory (and try Ctrl + T) :-)
+Open `./extension/index.html` in a web browser OR in Google Chrome, open chrome://extensions, have developer mode toggled on, click the "Load unpacked" button and choose the `./extension/` directory (and try Ctrl + T) :-)
 
 The page will be hosted as a local file and won't need network aceess to work. In time, creating a hosted service will be taken into consideration, but for the time beeing stick to downloading this repo to your machine.
 
